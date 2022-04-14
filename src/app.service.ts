@@ -8,6 +8,7 @@ export class AppService {
   }
 
   handleUserCreated(data: CreateUserEvent) {
+    console.log('handleUserCreated event handled in communication service');
     console.log(
       'an user_created event received at communication-service',
       data,
